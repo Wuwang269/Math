@@ -1,0 +1,40 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# IDE-local state (the shared project settings remain trackable)
+.idea/workspace.xml
+.idea/httpRequests/
+.idea/dataSources.local.xml
+.idea/shelf/
+
+# Raw and generated competition data
+Data-E/
+data/raw/
+data/interim/
+*.mp4
+*.wav
+*.pkl
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# Experiment outputs and local logs
+results/
+checkpoints/
+runs/
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
