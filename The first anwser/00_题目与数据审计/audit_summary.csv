@@ -1,0 +1,24 @@
+﻿item,scope,value,note
+split_size,train,3395,aligned_50.pkl
+text_shape,train,"(3395, 50, 768)",provided continuous text feature
+audio_shape,train,"(3395, 50, 74)",provided audio feature
+vision_shape,train,"(3395, 50, 35)",provided visual feature
+regression_range,train,"[-3, 3]",label range
+split_size,valid,728,aligned_50.pkl
+text_shape,valid,"(728, 50, 768)",provided continuous text feature
+audio_shape,valid,"(728, 50, 74)",provided audio feature
+vision_shape,valid,"(728, 50, 35)",provided visual feature
+regression_range,valid,"[-3, 3]",label range
+split_size,test,727,aligned_50.pkl
+text_shape,test,"(727, 50, 768)",provided continuous text feature
+audio_shape,test,"(727, 50, 74)",provided audio feature
+vision_shape,test,"(727, 50, 35)",provided visual feature
+regression_range,test,"[-3, 3]",label range
+file_count_.mp4,附件1,100,C:\Users\Administrator\Documents\ChatGPT\数学建模\Data-E\附件1-数据集原始多模态样本
+file_count_.xlsx,附件1,1,C:\Users\Administrator\Documents\ChatGPT\数学建模\Data-E\附件1-数据集原始多模态样本
+file_count_.pkl,附件2,2,C:\Users\Administrator\Documents\ChatGPT\数学建模\Data-E\附件2-数据集特征文件
+file_count_.xlsx,附件2,1,C:\Users\Administrator\Documents\ChatGPT\数学建模\Data-E\附件2-数据集特征文件
+file_count_.pkl,附件3 aligned,30,C:\Users\Administrator\Documents\ChatGPT\数学建模\Data-E\附件3-模态缺失特征样本\对齐版本
+file_count_.pkl,附件3 unaligned,30,C:\Users\Administrator\Documents\ChatGPT\数学建模\Data-E\附件3-模态缺失特征样本\未对齐版本
+file_count_.pkl,附件4,40,C:\Users\Administrator\Documents\ChatGPT\数学建模\Data-E\附件4-可解释专项视频样本与特征文件
+file_count_.mp4,附件4,40,C:\Users\Administrator\Documents\ChatGPT\数学建模\Data-E\附件4-可解释专项视频样本与特征文件
